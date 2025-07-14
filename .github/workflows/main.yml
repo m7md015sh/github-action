@@ -7,7 +7,7 @@ on:
       
 jobs:
   example:
-    runs-on: upuntu-latest 
+    runs-on: ubuntu-latest 
     
     steps:
     - name: example steps
