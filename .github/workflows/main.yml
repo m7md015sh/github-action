@@ -3,7 +3,7 @@ name: Print hello world
 on:
   push:
     branches:
-      -main
+      - main
       
 jobs:
   example:
