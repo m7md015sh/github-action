@@ -1,0 +1,11 @@
+name: Print hello world
+on:
+  push:
+    branches:
+      -main
+jobs:
+  example:
+    runs-on: upuntu-latest 
+    steps:
+    - name: example steps
+      run: echo "hello"
