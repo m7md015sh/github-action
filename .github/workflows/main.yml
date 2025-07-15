@@ -12,3 +12,8 @@ jobs:
     steps:
     - name: example steps
       run: echo "hello v2"
+    - name: checkout code
+      uses: actions/checkout@v4.2.2
+    - name: list repository files
+      run: ls -la
+    
